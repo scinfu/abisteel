@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Andromeda Light Nextjs",
+    "title": "Abi Steel",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
-    "logo_height": "34",
-    "logo_text": "Andromeda"
+    "logo": "/images/logo.png",
+    "logo_width": "133",
+    "logo_height": "50",
+    "logo_text": "Abi Steel"
   },
 
   "settings": {
@@ -19,19 +19,19 @@
     "tag_manager_id": "",
     "contact_form_action": "#",
     "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
+    "copyright": "Designed & Developed By [Credits](https:www.google.com)"
   },
 
   "contact_info": {
-    "phone": "+887887998",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "phone": "+390308367422",
+    "email": "info@abisteel.it",
+    "location": "Viale Marco Polo 30, 25030  Coccaglio (BS) Italia"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Download Now",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "label": "Contattaci",
+    "link": "/contact"
   },
 
   "metadata": {
@@ -42,11 +42,11 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
+    "title": "Lorem ipsum dolor",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
       "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "link": "https://google.it"
     }
   },
 

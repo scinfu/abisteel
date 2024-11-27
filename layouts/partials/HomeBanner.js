@@ -1,6 +1,7 @@
 "use client";
 
 import Circle from "@layouts/components/Circle";
+import BackgroundVideo from "@layouts/components/BackgroundVideo";
 import ImageFallback from "@layouts/components/ImageFallback";
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
@@ -21,13 +22,13 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
       tl.fromTo(
         ".banner-title",
         { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, delay: 0.5 }
+        { y: 0, opacity: 1, duration: 0.5, delay: 0.5 },
       )
         .fromTo(
           ".banner-btn",
           { y: 20, opacity: 0 },
           { y: 0, opacity: 1, duration: 0.5 },
-          ">-0.4"
+          ">-0.4",
         )
         .fromTo(
           ".banner-img",
@@ -40,7 +41,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
             opacity: 1,
             duration: 0.5,
           },
-          ">-.5"
+          ">-.5",
         );
 
       //parallax banner
@@ -62,7 +63,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
           },
           {
             y: -position,
-          }
+          },
         )
         .fromTo(
           bannerContent,
@@ -72,7 +73,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
           {
             y: position,
           },
-          "<"
+          "<",
         )
         .fromTo(
           ".banner-bg .circle",
@@ -82,7 +83,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
           {
             y: position,
           },
-          "<"
+          "<",
         );
     });
 
@@ -157,7 +158,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
                   {markdownify(
                     bannerData.title,
                     "h1",
-                    "mb-8 banner-title opacity-0"
+                    "mb-8 banner-title opacity-0",
                   )}
                   <div className="banner-btn opacity-0">
                     <Link
@@ -177,6 +178,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
                     priority={true}
                     alt=""
                   />
+                  {/* <BackgroundVideo /> */}
                 </div>
               </div>
             </div>

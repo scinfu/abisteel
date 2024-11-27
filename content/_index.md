@@ -1,10 +1,10 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "ABI STEEL </br> costruzioni meccaniche"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
-    href: "https://themefisher.com/products/andromeda-nextjs"
+    label: Contattaci
+    href: "/contact"
 
 ##brands
 brands:

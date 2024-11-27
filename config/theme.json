@@ -2,11 +2,11 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#fe6019",
+        "primary": "#69A2F3",
         "body": "#ffff",
-        "border": "#dee2e6",
+        "border": "#E3EBFF",
         "border_secondary": "#ffece4",
-        "theme_light": "#fffaf3",
+        "theme_light": "#F2FBFF",
         "theme_dark": "#1a202c"
       },
       "text_color": {

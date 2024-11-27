@@ -34,16 +34,16 @@
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Home",
+      "url": "/home"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Home",
+      "url": "/home"
     },
     {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Home",
+      "url": "/home"
     }
   ]
 }
