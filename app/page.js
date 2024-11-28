@@ -7,7 +7,6 @@ import ShortIntro from "@layouts/partials/ShortIntro";
 import SpecialFeatures from "@layouts/partials/SpecialFeatures";
 import Testimonial from "@layouts/partials/Testimonial";
 import { getListPage } from "@lib/contentParser";
-
 const Home = async () => {
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
@@ -15,7 +14,7 @@ const Home = async () => {
     frontmatter;
   return (
     <GSAPWrapper>
-      <SeoMeta title="Home" />
+      <SeoMeta title="ABI STEEL" />
       <HomeBanner banner={banner} brands={brands} />
       <Features features={features} />
       <ShortIntro intro={intro} />
