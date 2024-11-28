@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 
 const YouTubeVideo = ({ children }) => {
-  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
+  const [isLargeScreen, setIsLargeScreen] = useState(true);
 
   useEffect(() => {
+    setIsLargeScreen(window.innerWidth > 768);
     const handleResize = () => {
       setIsLargeScreen(window.innerWidth > 768); // Cambia condizione a seconda della tua definizione di "sm"
     };
