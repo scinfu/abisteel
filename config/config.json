@@ -45,8 +45,8 @@
     "title": "Lorem ipsum dolor",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://google.it"
+      "label": "Contattaci",
+      "link": "/contact"
     }
   },
 

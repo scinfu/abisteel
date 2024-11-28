@@ -1,7 +1,7 @@
 ---
 banner:
   title: "ABI STEEL </br> costruzioni meccaniche"
-  image: /images/banner-app.png
+  image: /images/banner-app.jpg
   link:
     label: Contattaci
     href: "/contact"
@@ -20,28 +20,28 @@ brands:
 
 #features
 features:
-  sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  sub_title: ABI STEEL
+  title: Caratteristiche Esclusive
+  description: Scopri i vantaggi unici che rendono AbiSteel il tuo partner ideale per soluzioni di carpenteria e saldatura. Precisione, innovazione e affidabilità sono al centro di ogni nostro progetto.
   list:
     - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Saldatura di Precisione
+      content: Il nostro team di esperti utilizza tecniche di saldatura all'avanguardia per garantire precisione e durata in ogni progetto. Dalle piccole riparazioni alle grandi strutture, la qualità è la nostra priorità.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Progettazione su Misura
+      content: Soluzioni metalliche personalizzate per ogni esigenza. Progettiamo e realizziamo strutture uniche, adattandoci alle tue richieste con creatività e innovazione.
     - icon: 'shield'
-      title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Rivestimenti Protettivi
+      content: Proteggi i tuoi investimenti con i nostri rivestimenti avanzati per metalli. Garantiamo la massima resistenza a corrosione, usura e condizioni ambientali estreme.
     - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Taglio CNC Avanzato
+      content: Ottieni una precisione impeccabile con i nostri sistemi di taglio a controllo numerico. Ideale per design complessi e progetti di qualità industriale.
     - icon: 'lock'
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Servizi di Saldatura Mobile
+      content: Non puoi venire da noi? Saremo noi a venire da te! La nostra unità mobile di saldatura offre qualità professionale direttamente sul tuo cantiere.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Focus sulla Sostenibilità
+      content: In AbiSteel, diamo priorità a pratiche eco-sostenibili, riducendo al minimo gli sprechi e massimizzando il riciclo per proteggere l’ambiente.
 
 #intro
 intro:

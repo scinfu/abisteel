@@ -6,11 +6,11 @@
     },
     {
       "name": "About",
-      "url": "/about"
+      "url": "/"
     },
     {
       "name": "Blog",
-      "url": "/posts"
+      "url": "/"
     },
     {
       "name": "Pages",
@@ -19,11 +19,11 @@
       "children": [
         {
           "name": "Elements",
-          "url": "/elements"
+          "url": "/"
         },
         {
           "name": "Terms & Conditions",
-          "url": "/terms-policy"
+          "url": "/"
         }
       ]
     },
