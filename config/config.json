@@ -18,14 +18,14 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_content": "Esperti in carpenteria e saldatura su misura. Realizziamo soluzioni resistenti e innovative per ogni progetto, con qualità e precisione garantite.",
     "copyright": "Designed & Developed By [Credits](https:www.google.com)"
   },
 
   "contact_info": {
     "phone": "+390308367422",
     "email": "info@abisteel.it",
-    "location": "Viale Marco Polo 30, 25030  Coccaglio (BS) Italia"
+    "location": "Viale Marco Polo 30, 25030  Coccaglio (BS) Italia </br> P.I. 04505990160"
   },
 
   "nav_button": {
@@ -42,8 +42,8 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Lorem ipsum dolor",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Hai un progetto in mente? Siamo qui per realizzarlo!",
+    "content": "Mettiamo la nostra esperienza al tuo servizio per creare soluzioni su misura che soddisfano ogni tua esigenza. </br> Contattaci oggi stesso per ricevere una consulenza gratuita e trasformare la tua idea in realtà.",
     "button": {
       "label": "Contattaci",
       "link": "/contact"
@@ -51,8 +51,8 @@
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "",
     "settings": {}
   }
 }

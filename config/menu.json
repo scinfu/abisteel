@@ -5,27 +5,12 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Certificazioni",
+      "url": "/certifications"
+    },
+    {
+      "name": "Chi Siamo",
       "url": "/about"
-    },
-    {
-      "name": "Blog",
-      "url": "/posts"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
     },
     {
       "name": "Contact",

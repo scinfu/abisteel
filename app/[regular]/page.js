@@ -1,5 +1,6 @@
 import NotFound from "@layouts/404";
 import About from "@layouts/About";
+import Certifications from "@layouts/Certifications";
 import GSAPWrapper from "@layouts/components/GSAPWrapper";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
@@ -29,6 +30,8 @@ const RegularPages = async ({ params }) => {
         <NotFound data={pageData} />
       ) : layout === "about" ? (
         <About data={pageData} />
+      ) : layout === "certifications" ? (
+        <Certifications data={pageData} />
       ) : layout === "contact" ? (
         <Contact data={pageData} />
       ) : (

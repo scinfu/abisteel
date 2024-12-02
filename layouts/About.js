@@ -25,7 +25,7 @@ const About = ({ data }) => {
   return (
     <>
       <section className="section pt-0">
-        <Banner title={title} />
+        {/* <Banner title={title} /> */}
         {/* About */}
         <div className="section container">
           <div className="row items-center justify-center">
@@ -221,7 +221,7 @@ const About = ({ data }) => {
         </div>
 
         {/* Clients */}
-        <div className="section container">
+        {/* <div className="section container">
           <div className="animate text-center">
             <p>{clients.subtitle}</p>
             {markdownify(clients.title, "h2", "section-title mt-4")}
@@ -258,10 +258,10 @@ const About = ({ data }) => {
               ))}
             </Swiper>
           </div>
-        </div>
+        </div> */}
 
         {/* Members */}
-        <div className="section container">
+        {/* <div className="section container">
           <div className="animate text-center">
             <p>{our_member.subtitle}</p>
             {markdownify(our_member.title, "h2", "section-title mt-4")}
@@ -289,10 +289,10 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Office */}
-        <div className="section container">
+        {/* <div className="section container">
           <div className="animate text-center">
             <p>{our_office.subtitle}</p>
             {markdownify(our_office.title, "h2", "section-title mt-4")}
@@ -322,7 +322,7 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <Cta />
     </>

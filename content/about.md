@@ -1,34 +1,40 @@
 ---
-title: "About"
+title: "Chi Siamo"
 layout: about
 draft: false
 
 ## about us
 about_us:
-  subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
+  subtitle: Chi siamo
+  title: ABI STEEL
+  content: Abi Steel S.r.l. è un'azienda specializzata in carpenteria pesante, operante principalmente come conto terzi. Grazie alla nostra consolidata esperienza e a una vasta superficie operativa, siamo in grado di realizzare manufatti metallici di ogni dimensione, dai piccoli componenti alle strutture di grande scala. </br>Negli anni, ci siamo affermati come specialisti nella costruzione di opere complesse e di grandi dimensioni
   image: /images/about/01.jpg
 
 ## our works
 works:
-  subtitle: OUR WORKS
-  title: What We Do
+  subtitle: I Nostri Lavori
+  title: Cosa Facciamo
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: Carroponti
+      content: Progettiamo e realizziamo carroponti robusti e affidabili, ideali per la movimentazione di carichi pesanti in ambienti industriali.
+    - title: Ponti autostradali
+      content: Costruiamo strutture metalliche per ponti autostradali, garantendo resistenza, sicurezza e conformità ai più elevati standard ingegneristici.
+    - title: Piattaforme industriali
+      content: Produciamo piattaforme personalizzate per applicazioni industriali, progettate per durare nel tempo e resistere a carichi elevati.
+    - title: Soppalchi
+      content: Realizziamo soppalchi modulari e su misura, ottimizzando lo spazio e garantendo stabilità per ambienti commerciali e industriali.
+    - title: Scale e passerelle pedonali sopraelevate
+      content: Progettiamo scale e passerelle pedonali sicure ed esteticamente curate, perfette per migliorare la mobilità urbana e infrastrutturale.
+    - title: Strutture metalliche per metropolitane
+      content: Specializzati nella costruzione di manufatti metallici per sistemi metropolitani, offriamo soluzioni resistenti e precise per un’infrastruttura moderna.
+    - title: Carpenteria di forme e dimensioni personalizzate
+      content: Creiamo strutture metalliche su misura per ogni esigenza, combinando flessibilità progettuale e qualità costruttiva senza compromessi.
 
 ## our mission
 mission:
-  subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
+  subtitle: LA NOSTRA MISSION
+  title: Vision e Mission
+  content: Diventare il punto di riferimento nel settore della carpenteria e saldatura, realizzando strutture sicure, innovative e sostenibili che trasformino le idee in realtà durature, contribuendo al progresso delle comunità e delle imprese. </br></br> Offrire soluzioni di carpenteria e saldatura di alta qualità, con un’attenzione scrupolosa ai dettagli, alla sicurezza e alle esigenze dei clienti. Attraverso l’uso di tecnologie avanzate, materiali eccellenti e un team altamente qualificato, ci impegniamo a garantire efficienza, precisione e affidabilità in ogni progetto.
   image: /images/about/02.jpg
 
 ## short video

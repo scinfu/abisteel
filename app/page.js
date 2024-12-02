@@ -17,9 +17,9 @@ const Home = async () => {
       <SeoMeta title="ABI STEEL" />
       <HomeBanner banner={banner} brands={brands} />
       <Features features={features} />
-      <ShortIntro intro={intro} />
-      <SpecialFeatures speciality={speciality} />
-      <Testimonial testimonial={testimonial} />
+      {/* <ShortIntro intro={intro} /> */}
+      {/* <SpecialFeatures speciality={speciality} />
+      <Testimonial testimonial={testimonial} /> */}
       <Cta />
     </GSAPWrapper>
   );

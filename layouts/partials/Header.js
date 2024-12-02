@@ -78,6 +78,9 @@ const Header = () => {
                             className={`nav-dropdown-link block transition-all ${
                               asPath === child.url && "active"
                             }`}
+                            onClick={() => {
+                              setShowMenu(false);
+                            }}
                           >
                             {child.name}
                           </Link>
@@ -92,6 +95,9 @@ const Header = () => {
                       className={`nav-link block ${
                         asPath === menu.url && "active"
                       }`}
+                      onClick={() => {
+                        setShowMenu(false);
+                      }}
                     >
                       {menu.name}
                     </Link>
