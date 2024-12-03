@@ -23,11 +23,11 @@ const Certifications = ({ data }) => {
 
   return (
     <>
-      <section className="section pt-0">
+      <section className="section py-0">
         {/* <Banner title={title} /> */}
 
         {/* About */}
-        <div className="section container">
+        <div className="section container py-4">
           <div className="row items-center justify-center">
             <div className="animate md:col-6 md:order-2 lg:col-5">
               <div className="about-image relative p-[60px]">
@@ -81,13 +81,13 @@ const Certifications = ({ data }) => {
         </div>
 
         {/* Certifications */}
-        <div className="section container">
+        <div className="section container py-4">
           <div className="animate text-center">
-            <p>{works.subtitle}</p>
-            {markdownify(works.title, "h2", "section-title mt-4")}
-            {markdownify(works.content, "p", "mt-10")}
+            {/* <p>{works.subtitle}</p> */}
+            {/* {markdownify(works.title, "h2", "section-title mt-4")}
+            {markdownify(works.content, "p", "mt-10")} */}
           </div>
-          <div className="row mt-10 justify-center">
+          <div className="row mt-0 justify-center">
             {works.list.map((work, index) => (
               <div key={"work-" + index} className="mt-10 md:col-6 lg:col-5">
                 <div className="animate text-center md:px-6 xl:px-12">

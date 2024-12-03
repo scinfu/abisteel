@@ -49,7 +49,7 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
   }, []);
 
   return (
-    <section className="section banner pt-0">
+    <section className="section banner py-0">
       <YouTubeVideo>
         <div
           className="row overflow-hidden rounded-2xl"

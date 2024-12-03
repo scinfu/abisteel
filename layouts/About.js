@@ -24,10 +24,10 @@ const About = ({ data }) => {
 
   return (
     <>
-      <section className="section pt-0">
+      <section className="section py-2">
         {/* <Banner title={title} /> */}
         {/* About */}
-        <div className="section container">
+        <div className="section container py-2">
           <div className="row items-center justify-center">
             <div className="animate md:col-6 md:order-2 lg:col-5">
               <div className="about-image relative p-[60px]">
@@ -81,7 +81,7 @@ const About = ({ data }) => {
         </div>
 
         {/* Works */}
-        <div className="section container">
+        <div className="section container py-2">
           <div className="animate text-center">
             <p>{works.subtitle}</p>
             {markdownify(works.title, "h2", "section-title mt-4")}
@@ -100,7 +100,7 @@ const About = ({ data }) => {
         </div>
 
         {/* Mission */}
-        <div className="section container">
+        <div className="section container py-2">
           <div className="row items-center justify-center">
             <div className="animate md:col-6 lg:col-5">
               <div className="about-image relative p-[60px]">
