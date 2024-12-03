@@ -104,4 +104,18 @@ testimonial:
       profession: CEO, Nexuspay
       content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
 
+#Testimonial
+gallery:
+  list:
+    - img: "/images/home/1.jpg"
+    - img: "/images/home/2.jpg"
+    - img: "/images/home/3.jpg"
+    - img: "/images/home/4.jpg"
+    - img: "/images/home/5.jpg"
+    - img: "/images/home/6.jpg"
+    - img: "/images/home/7.jpg"
+    - img: "/images/home/8.jpg"
+    - img: "/images/home/9.jpg"
+    - img: "/images/home/10.jpg"
+
 ---
