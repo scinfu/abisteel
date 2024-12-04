@@ -23,7 +23,7 @@ const Banner = ({ title }) => {
           y: 0,
           opacity: 1,
           duration: 0.5,
-        }
+        },
       ).fromTo(
         ".breadcrumb",
         {
@@ -34,7 +34,7 @@ const Banner = ({ title }) => {
           opacity: 1,
           duration: 0.5,
         },
-        ">-.3"
+        ">-.3",
       );
       //parallax banner
       const parallaxTl = gsap.timeline({
@@ -56,7 +56,7 @@ const Banner = ({ title }) => {
         {
           y: position,
         },
-        "<"
+        "<",
       );
     }, banner);
 
@@ -64,8 +64,8 @@ const Banner = ({ title }) => {
   }, []);
 
   return (
-    <div className="banner banner-single " ref={banner}>
-      <div className="container-xl ">
+    <div className="banner banner-single py-0" ref={banner}>
+      <div className="container-xl py-0">
         <div className="banner-wrapper relative text-center">
           {markdownify(title, "h1", "mb-8 banner-regular-title opacity-0")}
           <ul className="breadcrumb flex items-center justify-center opacity-0">

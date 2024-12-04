@@ -52,7 +52,6 @@ works:
         - img: /images/references/4/2.jpg
         - img: /images/references/4/3.jpg
         - img: /images/references/4/4.jpg
-        - img: /images/references/4/5.jpg
     
     - title: Title 5
       content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor.
