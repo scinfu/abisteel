@@ -5,6 +5,7 @@ import GSAPWrapper from "@layouts/components/GSAPWrapper";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import SeoMeta from "@layouts/partials/SeoMeta";
+import References from "@layouts/References";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -32,6 +33,8 @@ const RegularPages = async ({ params }) => {
         <About data={pageData} />
       ) : layout === "certifications" ? (
         <Certifications data={pageData} />
+      ) : layout === "references" ? (
+        <References data={pageData} />
       ) : layout === "contact" ? (
         <Contact data={pageData} />
       ) : (

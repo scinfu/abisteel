@@ -1,6 +1,7 @@
 "use client";
 import ImageFallback from "@layouts/components/ImageFallback";
 import React, { useState } from "react";
+import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 
 const ImageGrid = ({ images }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,10 +69,14 @@ const ImageGrid = ({ images }) => {
       </div>
 
       {/* Modale */}
-      {isOpen && (
+      <Dialog open={isOpen} onClose={setIsOpen} closeModal className="relative z-100" onClick={handleOverlayClick}>
+      <DialogBackdrop
+        transition
+        className="fixed inset-0 bg-gray-500/75 transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-200 data-[enter]:ease-out data-[leave]:ease-in"
+        />
         <div
           id="modal-overlay"
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center"
           onClick={handleOverlayClick}
         >
           <div className="relative">
@@ -108,7 +113,7 @@ const ImageGrid = ({ images }) => {
             />
           </div>
         </div>
-      )}
+      </Dialog>
     </>
   );
 };

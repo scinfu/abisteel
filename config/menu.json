@@ -9,6 +9,10 @@
       "url": "/certifications"
     },
     {
+      "name": "Referenze",
+      "url": "/references"
+    },
+    {
       "name": "Chi Siamo",
       "url": "/about"
     },
@@ -19,16 +23,16 @@
   ],
   "footer": [
     {
-      "name": "Home",
-      "url": "/home"
+      "name": "Certificzioni",
+      "url": "/certifications"
     },
     {
-      "name": "Home",
-      "url": "/home"
+      "name": "Referenze",
+      "url": "/references"
     },
     {
-      "name": "Home",
-      "url": "/home"
+      "name": "Chi Siamo",
+      "url": "/about"
     }
   ]
 }
