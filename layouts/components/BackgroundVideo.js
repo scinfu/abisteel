@@ -34,7 +34,7 @@ const YouTubeVideo = ({ children }) => {
         }}
       >
         <iframe
-          src="https://www.youtube.com/embed/6mH7EpDEdfk?autoplay=1&mute=1&controls=0&loop=1&playlist=6mH7EpDEdfk&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3&disablekb=1"
+          src="https://www.youtube.com/embed/TX_UNMLgo94?autoplay=1&mute=1&controls=0&loop=1&playlist=TX_UNMLgo94&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3&disablekb=1"
           style={{
             position: "absolute",
             top: 0,
