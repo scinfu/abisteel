@@ -21,7 +21,7 @@ const YouTubeVideo = ({ children }) => {
         height: 500,
         width: "100%",
         overflow: "hidden", // Nasconde il contenuto che sborda
-        position: "relative", // Necessario per i children assoluti
+        position: "relative", // Necessario per i children assolut
       }}
     >
       <div
